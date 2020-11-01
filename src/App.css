@@ -1,3 +1,9 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +11,19 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.sidebar {
+  float: left;
+  max-width: 200px;
+  padding-top: 25px;
+}
+
+.singleRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @media (prefers-reduced-motion: no-preference) {
